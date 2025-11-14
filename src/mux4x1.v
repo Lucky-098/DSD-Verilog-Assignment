@@ -1,4 +1,3 @@
-// mux4.v - 4:1 multiplexer
 module mux4(
     input  wire [3:0] d,
     input  wire [1:0] sel,
@@ -14,3 +13,4 @@ module mux4(
         endcase
     end
 endmodule
+
