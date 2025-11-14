@@ -1,4 +1,3 @@
-
 module priority_encoder_4to2(
     input  wire [3:0] in,
     output reg  [1:0] code,
