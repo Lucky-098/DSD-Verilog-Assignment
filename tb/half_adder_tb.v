@@ -3,7 +3,7 @@ module half_adder_tb;
     reg a, b;
     wire sum, carry;
 
-    // Instantiate DUT (Device Under Test)
+    // Instantiate DUT 
     half_adder dut (
         .a(a),
         .b(b),
